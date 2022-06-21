@@ -30,11 +30,11 @@
     <!-- -----------------CONTACTS ---------------->
     <ul class="contacts">
         <li class="item mail"><a class="list-header" href="mailto:info@devstudio.com">
-            <svg class="icon-envelope" widht="16px" height="12px">
+            <svg class="icon-envelope" width="16px" height="12px">
                 <use href="./images/hw-04-imgs/sprite.svg#icon-envelope"></use> 
             </svg>info@devstudio.com</a></li>
         <li class="item phone"><a class="list-header" href="tel:+380961111111">
-            <svg class="icon-phone"  widht="10px" height="16px">
+            <svg class="icon-phone" width="10px" height="16px">
                 <use href="./images/hw-04-imgs/sprite.svg#icon-smartphone"></use>
             </svg> +38 096 111 11 11</a></li>
     </ul>
@@ -325,8 +325,8 @@
     <!-----------------FOOTER Subscribe подписка----------------------->
     <form>
     <div class="footer-subscribe">
-    <label for="user-email" class="footer-subscribe-label">Подпишитесь на рассылку</label>
-    <input type="email" class="footer-subscribe-input" name="user-email" placeholder="E-mail" required>
+    <label for="user-mail" class="footer-subscribe-label">Подпишитесь на рассылку</label>
+    <input type="email" class="footer-subscribe-input" name="user-mail" id="user-mail" placeholder="E-mail" required>
     <button type="submit" class="footer-subscribe-button">Подписаться
     <svg class="footer-subscribe-button-svg" width="24" height="24">
         <use href="./images/hw-04-imgs/sprite.svg#icon-icon-send"></use>
@@ -348,7 +348,7 @@
     <form>
         <div class="modal-field">
         <label for="user-name" class="modal-lable">Имя</label>
-        <div class="input-wraw"><input type="text" class="modal-input" name="user-name" minlength="3">
+        <div class="input-wraw"><input type="text" class="modal-input" id="user-name" name="user-name" minlength="3">
         <svg class="modal-icon" width="18px" height="18px">
             <use href="./images/hw-04-imgs/sprite.svg#icon-person-black"></use>
         </svg>
@@ -356,7 +356,7 @@
         </div>
         <div class="modal-field">
         <label for="user-tel" class="modal-lable">Телефон</label>
-        <div class="input-wraw"><input type="tel" class="modal-input" name="user-tel" 
+        <div class="input-wraw"><input type="tel" class="modal-input" id="user-tel" name="user-tel" 
         required minlength="10" maxlength="13">
         <svg class="modal-icon" width="18px" height="18px">
             <use href="./images/hw-04-imgs/sprite.svg#icon-phone-black"></use>
@@ -365,7 +365,7 @@
         </div>
         <div class="modal-field">
         <label for="user-email" class="modal-lable">Почта</label>
-        <div class="input-wraw"><input type="email" class="modal-input" name="user-email">
+        <div class="input-wraw"><input type="email" class="modal-input" id="user-email" name="user-email">
         <svg class="modal-icon" width="18px" height="18px">
             <use href="./images/hw-04-imgs/sprite.svg#icon-email-black"></use>
         </svg>
@@ -373,7 +373,7 @@
         </div>
         <div class="modal-field">
         <label for="modal-coment-id" class="modal-coment-label">Комментарий</label>
-        <textarea name="Комментарий" class="modal-coment" id="modal-coment-id" placeholder="Введите текст"></textarea>
+        <textarea name="modal-coment-id" class="modal-coment" id="modal-coment-id" placeholder="Введите текст"></textarea>
         </div>
         <div class="modal-field-сheckbox">
         <fieldset class="agree-checkpoint-fieldset">
